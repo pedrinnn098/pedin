@@ -1,79 +1,143 @@
-
-.logo {
-    max-width: 150px;
-    height: 150px;
-    display: block;
-    margin: 10 auto;
-    border-radius: 50%;
-  }  
-
 /* Estilos globais */
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
-    margin: 0;
-    padding: 0;
-   background-image: url(./img/download\ \(1\).jpeg);
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Estilos do cabeçalho */
-  header {
-    background-image: url(./img/download\ \(1\).jpeg);
-    padding: 0px;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffee00;
+}
 
-  }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-image: url(./img/f3.jpeg);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
   
-  header h1 {
-    color: #333;
-    margin: 50px;
-    margin-top: -5%;
-  }
   
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 0%;
-  }
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  border-radius: 100%;
+  margin-right: 100px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+  margin: 3%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+}
+
+h1{
+  margin: 0%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: large;
+}
+
+/* Estilos da seção "Sobre" */
+#sobre {
+  background-color: #652020;
+  padding: 40px;
+  background-image: url(./img/f3.jpeg);
+}
+
+#sobre h2 {
+  color: #000000;
+}
+
+#sobre p {
+  color: #000000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+}
+
+/* Estilos da seção "Produtos" */
+#produtos {
+  background-color: #f9f9f9;
+  background-image: url(./img/f3.jpeg);
+  padding: 40px;
+}
+
+#produtos h2 {
+  color: #000000;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+}
+
+.product {
+
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.product img {
+  height: auto;
+  max-width: 150px;
+  border-radius: 100%;
+  margin-right: 150px;
+  display: flexbox;
+  margin: 2%;
+}
+
+.product h3 {
+  color: #000000;
+  display: contents;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+ 
+}
+
+.product p {
+  color: #000000;
+  display: unset;
+  max-width: 200px;
+  margin: 2%
   
-  nav li {
-    display: inline;
-    margin-right: 10px;
-    text-align: center;
-  }
   
-  nav a {
-    text-decoration: dashed;
-    color: #333;
-    height: 10px;
-    
-  }
-  
-  /* Estilos das seções */
-  section {
-    margin-bottom: 20px;
-    
-  }
-  
-  section h2 {
-    color: #333333;
-  }
-  
-  section p {
-    color: #666;
-  }
-  
-  /* Estilos do rodapé */
-  footer {
-    background-color: #7e4b0b;
-    padding: 10px;
-    text-align: center;
-    color: #666;
-  }
-  
+}
+
+.botao {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f2f2f2;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.botao:hover {
+  background-color: #ddd;
+}
